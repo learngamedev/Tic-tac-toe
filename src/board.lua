@@ -11,7 +11,7 @@ function Board:init()
     -- Drawing properties of board
     self.m_TopX, self.m_TopY = 200, 200
     self.m_Indent, self.m_Spacing = 50, 50
-    self.m_Font = love.graphics.setNewFont("Fonts/Pixel-Miners.ttf", 20)
+    self.m_Font = love.graphics.setNewFont("Fonts/Pixel-Miners.ttf", 14)
 end
 
 function Board:render()

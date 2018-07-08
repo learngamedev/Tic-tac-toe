@@ -26,8 +26,10 @@ function love.draw()
     -- Ending a round with a prompt to user
     if (roundEnd == 1) then
         love.graphics.print("Player won!", 0, 0)
+        love.graphics.print("Press R to restart!",0 , 30)
     elseif (roundEnd == 2) then
         love.graphics.print("Computer won!", 0, 0)
+        love.graphics.print("Press R to restart!",0 , 30)
     end
 
     board:render()
